@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang= "en">
+
+<head>
+<title>GALERIA</title>
+<meta charset="utf-8">
+<meta name=viewport" content="widht-device-widht,user-scalable=no,initial- scale=1,maximun-scale=1, minimum-scale=1">
+<link rel="stylesheet" href="css1/styles.css">
+</head>
+
+<body bgcolor="#333">
+<center>
+<h1>galeria de imagenes con efecto lightbox solo con css</h1>
+<ul class="galeria">
+<li><a href="#img1"><img src="imagenes\20180831_152434.jpg"></a></li>
+<li><a href="#img2"><img src="imagenes\20180831_152452.jpg"></a></li>
+</ul>
+ 
+<div class="modal" id="img1">
+<h3>paisaje 1</h3>
+<div class="imagen">
+<a href="img2">&#60;</a>
+<a href="img2"><img src="imagenes\20180831_152434.jpg">
+<a href="#img2">></a>
+</div>
+<a class="cerrar" href="">x</a>
+</div>
+
+<div class="modal" id="img2">
+<h3>paisaje 2</h3>
+<div class="imagen">
+<a href="img1">&#60;</a>
+<a href="img1"><img src="imagenes\20180831_152452.jpg">
+<a href="#img1">></a>
+</div>
+<a class="cerrar" href="">x</a>
+</div>
+</center>
+</body>
+</html>
+
